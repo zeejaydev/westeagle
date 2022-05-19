@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=Montserrat:wght@300;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:active,a:visited,a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav{
+    background-color: #333533;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-container{
+    display: flex;
+    color: #fff;
+    gap: 10px;
+    align-items: flex-end;
+    padding: 20px;
+}
+.img-logo-container{
+    position: relative;
+    height: 70px;
+}
+.img-logo-container img{
+    height: 100%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.log-text{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.small-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+.hero{
+    background-image: url('/public/assets/bg.jpg');
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.overlay{
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(3px);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-title{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    font-size: 110px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.medium-text{
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    color: #fff;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.info{
+    display: flex;
+    max-width: 900px;
+    text-align: center;
+    margin: 25px auto;
+
+}
+.info-item h2{
+    font-size: 20px;
+}
+.info-item p{
+    font-size: 13px;
+    padding: 10px;
+}
+.about-us{
+    height: 300px;
+    display: flex;
+    background-color: #333533;
+}
+.about-us-item{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/public/assets/driver.jpg');
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+    line-height: 25px;
+}
+.about-us-item h2{
+    padding: 20px 0;
+}
+.contact-us{
+    display: flex;
+    margin: 25px auto;
+    max-width: 900px;
+    gap: 20px;
+}
+.contact-us a{
+    color: #333533;
+}
+.contact-us-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-size: 22px;
+}
+footer{
+    background-color: #333533;
+    padding: 10px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

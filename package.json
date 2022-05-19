@@ -1,0 +1,11 @@
+{
+  "name": "westegale",
+  "version": "1.0.0",
+  "description": "Transportations Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "author": "Zaid Jamil",
+  "license": "ISC"
+}
