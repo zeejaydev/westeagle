@@ -4,8 +4,12 @@
   "description": "Transportations Website",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "nodemon"
   },
   "author": "Zaid Jamil",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
 }
